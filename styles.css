@@ -1,0 +1,47 @@
+@import url('https://fonts.cdnfonts.com/css/clipper-script-personal-use');
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    margin-top: 100px;
+    font-family:'Clipper Script (Personal Use)', sans-serif;
+    font-size: large;
+    flex-direction: column;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-top: auto;
+    
+}
+h2 {
+    margin-top: auto;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 1px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+#sim {
+    background-color: green;
+    color: white;
+}
+
+#nao {
+    background-color: orange;
+    color: white;
+}
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family:'Clipper Script (Personal Use)', sans-serif;
+}
