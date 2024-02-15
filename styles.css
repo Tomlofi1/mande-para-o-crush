@@ -1,4 +1,10 @@
 @import url('https://fonts.cdnfonts.com/css/clipper-script-personal-use');
+.background {
+    background-image: url('imgs/background.gif');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
 .container {
     display: flex;
     justify-content: center;
@@ -30,12 +36,12 @@ h2 {
 }
 
 #sim {
-    background-color: green;
+    background-color:#00FF00;
     color: white;
 }
 
 #nao {
-    background-color: orange;
+    background-color:#800000;
     color: white;
 }
 .conteudo {
@@ -45,3 +51,4 @@ h2 {
     background-color: white;
     font-family:'Clipper Script (Personal Use)', sans-serif;
 }
+
