@@ -3,6 +3,7 @@ body {
 }
 .background {
     background-image: url("img/static.png");
+    padding-top: 100px;
     padding-top: 1000px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -12,9 +13,10 @@ body {
 
 .verso {
     margin-left: 20px; /* Recuo dos versos */
-    color: aliceblue;
+    color: #8e9c11;
 }
-poema {
+}
+.poema {
     text-align: center; /* Centralizar o poema */
     white-space: pre-line; /* Preserva quebras de linha */
     margin: 0 auto; /* Centralizar o poema */
