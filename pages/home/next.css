@@ -1,4 +1,25 @@
-html,
 body {
-    background-color:#F0F8FF;
+    margin: 0;
+}
+.background {
+    background-image: url("img/static.png");
+    padding-top: 1000px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.verso {
+    margin-left: 20px; /* Recuo dos versos */
+    color: aliceblue;
+}
+poema {
+    text-align: center; /* Centralizar o poema */
+    white-space: pre-line; /* Preserva quebras de linha */
+    margin: 0 auto; /* Centralizar o poema */
+    max-width: 600px; /* Define uma largura máxima para o poema */
+    font-family: Arial, sans-serif; /* Define uma fonte */
+    font-style: italic; /* Adiciona itálico */
+    line-height: 1.5; /* Espaçamento entre as linhas */
 }
