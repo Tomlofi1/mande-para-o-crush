@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     simButton.addEventListener("click", function(){
         var conteudo = document.querySelector(".conteudo");
-        conteudo.innerHTML = "<h1>Obg te amo S2<h1/>";
+        window.location.href = "pages/home/home.html";
         conteudo.style.backgroundColor = "white";
         conteudo.style.color = "black";
         var botoes = document.querySelectorAll(".glow-on-hover");

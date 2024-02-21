@@ -4,6 +4,7 @@ body {
 .background {
     background-image: url("img/static.png");
     padding-top: 100px;
+    padding-top: 1000px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,6 +14,7 @@ body {
 .verso {
     margin-left: 20px; /* Recuo dos versos */
     color: #8e9c11;
+}
 }
 .poema {
     text-align: center; /* Centralizar o poema */
