@@ -15,7 +15,7 @@ body {
     margin-left: 20px; /* Recuo dos versos */
     color: #8e9c11;
 }
-}
+
 .poema {
     text-align: center; /* Centralizar o poema */
     white-space: pre-line; /* Preserva quebras de linha */
