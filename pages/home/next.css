@@ -3,17 +3,18 @@ body {
 }
 .background {
     background-image: url("img/static.png");
-    padding-top: 100px;
-    padding-top: 1000px;
+    padding-top: 200px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    object-fit: cover;
 }
 
 .verso {
     margin-left: 20px; /* Recuo dos versos */
-    color: #8e9c11;
+    color: #e9b7a9;
+    text-shadow: none;
 }
 
 .poema {
